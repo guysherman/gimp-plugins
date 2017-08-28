@@ -36,4 +36,12 @@ cp align-all-layers.py /usr/lib/gimp/2.0/plug-ins/
 chmod +x /usr/lib/gimp/2.0/plug-ins/align-all-layers.py
 ```
 
+## Plugins
+
+### Align All Layers
+
+**This plugin requires the following plugin to work:** https://sourceforge.net/projects/gimp-image-reg/
+
+The plugin iterates through the layers in your image and uses `gimp-image-reg` to align them to the bottom layer. Quite useful if you're using 
+any sort of photo-stacking technique, like bracketing for HDR, or stacking exposures to simulate a long exposure, etc. Might add a progress window or something one day.
 
